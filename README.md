@@ -22,7 +22,7 @@ ________________________________________
 
 **Requisitos**
 
-Python Instalado e configurado
+Python Instalado
 - https://www.python.org/downloads/
 
 Instalação do Robot Framework e das libraries externas:
@@ -32,6 +32,8 @@ Instalação do Robot Framework e das libraries externas:
 
 Necessário baixar o driver do navegador que será executado os testes, e informado tal .exe na pasta Scripts que fica dentro da pasta do Python
 
+________________________________________
+
 **Instruções para execução**
 
 Linha de comando: robot -d ./results -i login serverest/tests/tests.robot
@@ -39,4 +41,4 @@ Linha de comando: robot -d ./results -i login serverest/tests/tests.robot
 -d seguido do diretório da pasta aonde será registrado os logs
 -i seguido do nome da tag presente no arquivo tests.robot, com isso será executado apenas os testes correspondentes a esta tag
 
-OBS: -d e -i não são obrigatórios
+OBS: os comandos -d e -i não são obrigatórios
