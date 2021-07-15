@@ -1,0 +1,6 @@
+{{
+    "nome": "Teste",
+    "email": "{email}",
+    "password": "123",
+    "administrador": "true"
+  }}

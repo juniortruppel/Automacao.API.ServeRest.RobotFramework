@@ -4,6 +4,7 @@ Documentation       Arquivo de base do projeto
 Library             Collections
 Library             String
 Library             RequestsLibrary
+Library             FakerLibrary    locale=pt_BR
 
 Resource            helpers.robot
 
@@ -12,10 +13,9 @@ Resource            ../ServeRest/pages/login/login.robot
 
 #Usuarios
 Resource            ../ServeRest/pages/usuarios/usuarios.robot
-Resource            ../ServeRest/pages/usuarios/variaveis.robot
 
 #Produtos
-#Resource            ../ServeRest/pages/produtos/produtos.robot
+Resource            ../ServeRest/pages/produtos/produtos.robot
 #Resource            ../ServeRest/pages/produtos/variaveis.robot
 
 #Carrinhos

@@ -7,13 +7,34 @@ Resource            ../../base/base.robot
 
 ***Test Cases***
 #Login
-Realizar login com sucesso
-    Login com sucesso
+Login
+    [Tags]      login
+    Login com sucesso e obter token
+    #Login sem sucesso
 
 #Usuarios
-Listar todos os usuarios
-    [Tags]      teste
-    Listar usuarios
+Usuários
+    [Tags]      usuarios
+    Cadastrar usuário sem arquivo JSON
+    Cadastrar usuário com arquivo JSON
+    #Cadastrar usuário com um e-mail que já foi utilizado
+    Listar todos os usuarios
+    Buscar usuário "idUsuario"
+    Editar usuário "idUsuario"
+    Deletar usuário "idUsuario"
 
-Buscar usuário específico
-    Buscar "Fulano da Silva"
+#Produtos
+Produtos
+    [Tags]      produtos
+    Cadastrar produto sem arquivo JSON
+    Cadastrar produto com arquivo JSON
+    #Cadastrar produto com um nome que já foi utilizado
+    Listar todos os produtos
+    produtos.Buscar produto "idProduto"
+    produtos.Buscar produto com uma descricao específica
+    Editar produto "idProduto"
+    Deletar produto "idProduto"
+
+Teste
+    [Tags]      teste
+    produtos.Buscar produto com uma descricao específica
