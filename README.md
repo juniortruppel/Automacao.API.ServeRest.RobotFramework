@@ -1,8 +1,10 @@
-# Repositório para fins de estudo.
+**# Repositório para fins de estudo.**
 
-Utilizando o Robot Framework, foi realizado a automação de testes de API, onde foi automatizado todas as rotas do servidor REST "ServeRest".
+**Utilizando o Robot Framework, foi realizado a automação de testes de API, onde foi automatizado todas as rotas do servidor REST "ServeRest".**
 
 O ServeRest é um servidor REST que simula uma loja virtual com intuito de servir de material de estudos de testes de API (mais informações https://serverest.dev/).
+
+________________________________________
 
 **Estrutura do Projeto:**
 
