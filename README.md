@@ -9,9 +9,13 @@ ________________________________________
 **Estrutura do Projeto:**
 
 Utilizado o padrão Page Object.
+
 Utilizado o método de desenvolvimento TDD, mas pode ser facilmente transcrevido para BDD.
+
 No diretório da pasta "ServeRest", existe a pasta "tests" que contém o arquivo tests.robot, é nele que temos os casos de teste, e ele é o arquivo que deve ser executado ao rodar os testes.
+
 No diretório da pasta "ServeRest", temos a pasta "pages", dentro dela temos as pastas que correspondem as rotas da nossa API, e dentro de cada uma destas pastas, temos a implementação das Keywords que são chamadas no arquivo tests.robot.
+
 Os arquivos faturamento.robot e conferenciasXML.robot possuem as implementações das Keywords que foram criadas para automação.
 
 ________________________________________
