@@ -34,7 +34,3 @@ Produtos
     produtos.Buscar produto com uma descricao específica
     Editar produto "idProduto"
     Deletar produto "idProduto"
-
-Teste
-    [Tags]      teste
-    produtos.Buscar produto com uma descricao específica
