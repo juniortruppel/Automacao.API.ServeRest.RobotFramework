@@ -1,16 +1,16 @@
 # Repositório para fins de estudo.
 
-Utilizando o Robot Framework, foi realizado a automação de testes de API, onde foi automatizado todas as rotas do servidor REST "ServeRest"
+Utilizando o Robot Framework, foi realizado a automação de testes de API, onde foi automatizado todas as rotas do servidor REST "ServeRest".
 
-O ServeRest é um servidor REST que simula uma loja virtual com intuito de servir de material de estudos de testes de API (mais informações https://serverest.dev/)
+O ServeRest é um servidor REST que simula uma loja virtual com intuito de servir de material de estudos de testes de API (mais informações https://serverest.dev/).
 
 **Estrutura do Projeto:**
 
-Utilizado o padrão Page Object
-Utilizado o método de desenvolvimento TDD, mas pode ser facilmente transcrevido para BDD
-No diretório da pasta "ServeRest", existe a pasta "tests" que contém o arquivo tests.robot, é nele que temos os casos de teste, e ele é o arquivo que deve ser executado ao rodar os testes
-No diretório da pasta "ServeRest", temos a pasta "pages", dentro dela temos as pastas que correspondem as rotas da nossa API, e dentro de cada uma destas pastas, temos a implementação das Keywords que são chamadas no arquivo tests.robot
-Os arquivos faturamento.robot e conferenciasXML.robot possuem as implementações das Keywords que foram criadas para automação
+Utilizado o padrão Page Object.
+Utilizado o método de desenvolvimento TDD, mas pode ser facilmente transcrevido para BDD.
+No diretório da pasta "ServeRest", existe a pasta "tests" que contém o arquivo tests.robot, é nele que temos os casos de teste, e ele é o arquivo que deve ser executado ao rodar os testes.
+No diretório da pasta "ServeRest", temos a pasta "pages", dentro dela temos as pastas que correspondem as rotas da nossa API, e dentro de cada uma destas pastas, temos a implementação das Keywords que são chamadas no arquivo tests.robot.
+Os arquivos faturamento.robot e conferenciasXML.robot possuem as implementações das Keywords que foram criadas para automação.
 
 ________________________________________
 
