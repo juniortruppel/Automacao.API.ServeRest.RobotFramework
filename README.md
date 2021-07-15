@@ -1,4 +1,4 @@
-**# Repositório para fins de estudo.**
+# Repositório para fins de estudo.
 
 **Utilizando o Robot Framework, foi realizado a automação de testes de API, onde foi automatizado todas as rotas do servidor REST "ServeRest".**
 
