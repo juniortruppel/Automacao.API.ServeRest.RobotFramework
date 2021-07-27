@@ -37,8 +37,9 @@ Produtos
 
 Carrinhos
     [Tags]      carrinhos
-    Listar todos os carrinhos
-    Listar carrinho "idCarrinho"
-    #Cadastrar um carrinho
+    #Listar todos os carrinhos
+    #Listar carrinho "idCarrinho"
+    #Cadastrar carrinho sem arquivo JSON
+    Cadastrar carrinho com arquivo JSON
     #Excluir carrinho sem retornar o estoque dos produtos
     #Excluir carrinho sem retornando o estoque dos produtos
