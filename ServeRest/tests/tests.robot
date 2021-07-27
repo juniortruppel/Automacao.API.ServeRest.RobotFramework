@@ -9,7 +9,7 @@ Resource            ../../base/base.robot
 #Login
 Login
     [Tags]      login
-    Login com sucesso e obter token
+    Logar com sucesso e resgatar bearer token
     #Login sem sucesso
 
 #Usuarios
@@ -34,3 +34,11 @@ Produtos
     produtos.Buscar produto com uma descricao específica
     Editar produto "idProduto"
     Deletar produto "idProduto"
+
+Carrinhos
+    [Tags]      carrinhos
+    Listar todos os carrinhos
+    Listar carrinho "idCarrinho"
+    #Cadastrar um carrinho
+    #Excluir carrinho sem retornar o estoque dos produtos
+    #Excluir carrinho sem retornando o estoque dos produtos

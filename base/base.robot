@@ -5,6 +5,7 @@ Library             Collections
 Library             RequestsLibrary
 Library             String
 Library             FakerLibrary    locale=pt_BR
+Library             RPA.JSON
 
 Resource            helpers.robot
 
@@ -18,5 +19,4 @@ Resource            ../ServeRest/pages/usuarios/usuarios.robot
 Resource            ../ServeRest/pages/produtos/produtos.robot
 
 #Carrinhos
-#Resource            ../ServeRest/pages/carrinhos/carrinhos.robot
-#Resource            ../ServeRest/pages/carrinhos/variaveis.robot
+Resource            ../ServeRest/pages/carrinhos/carrinhos.robot

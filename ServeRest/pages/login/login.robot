@@ -2,10 +2,12 @@
 Documentation       Implementação das Keywords da rota /login
 
 ***Variables***
-&{dados}        emailCorreto=a@qa.com.br    emailIncorreto=fulano@qa.com.br     password=teste
+&{dados}        emailIncorreto=a@qa.com.br
+...             emailCorreto=fulano@qa.com
+...             password=teste
 
 ***Keywords***
-Login com sucesso e obter token
+Logar com sucesso e resgatar bearer token
     &{data}                         Create Dictionary           email=${dados.emailCorreto}                 password=${dados.password}
     ${resp}                         POST                        ${baseURL}/login                            json=${data}
     Confere status code e reason    ${resp}

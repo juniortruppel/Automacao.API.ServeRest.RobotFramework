@@ -8,7 +8,7 @@ Gerador de dados de produtos
     Set Suite Variable                      ${randomProduto}
 
 Cadastrar produto sem arquivo JSON
-    Login com sucesso e obter token
+    Logar com sucesso e resgatar bearer token
     Gerador de dados de produtos
     ${headers}      Create Dictionary       Authorization=${token}
     ${body}         Create Dictionary       nome=${randomProduto.nome}      preco=10        descricao=Testando       quantidade=10
@@ -17,7 +17,7 @@ Cadastrar produto sem arquivo JSON
     Dictionary Should Contain Item          ${resp.json()}                  message         ${mensagensRetorno.cadastroSucesso}
 
 Cadastrar produto com arquivo JSON
-    Login com sucesso e obter token
+    Logar com sucesso e resgatar bearer token
     Gerador de dados de produtos
     &{headers}      Create Dictionary       Content-Type=application/json   Authorization=${token}
     ${body}         Format String           ${CURDIR}/produtos.json
